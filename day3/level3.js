@@ -9,34 +9,34 @@ const currentMonth = correctDate(new Date().getMonth());
 const currentMins = correctDate(new Date().getMinutes());
 const currentHours = correctDate(new Date().getHours());
 
-// console.log(`
-// ${currentYear}-${currentMonth}-${currentDay} ${currentHours}:${currentMins}
-// `);
+console.log(`
+${currentYear}-${currentMonth}-${currentDay} ${currentHours}:${currentMins}
+`);
 
 // 5
-// console.log(`
-//     y = 2x - 2
-//     x = 0
-//     y = 2 * 0 - 2
-//     y = -2
-//     y-intercept: 0, -2
-// `);
+console.log(`
+    y = 2x - 2
+    x = 0
+    y = 2 * 0 - 2
+    y = -2
+    y-intercept: 0, -2
+`);
 
-// console.log(`
-//     y = 2x - 2
-//     y = 0
-//     0 = 2x - 2
-//     2 = 2x
-//     2 / 2 = x
-//     1 = x
-//     x-intercept: 1, 0
-// `);
+console.log(`
+    y = 2x - 2
+    y = 0
+    0 = 2x - 2
+    2 = 2x
+    2 / 2 = x
+    1 = x
+    x-intercept: 1, 0
+`);
 
 const slop1 = 2 / 1;
 
-// console.log(`
-//     slope: slop1
-// `);
+console.log(`
+    slope: slop1
+`);
 
 // 6
 // point (2, 2) and point(6,10)
@@ -45,10 +45,10 @@ const y1 = 2;
 const x1 = 6;
 const x2 = 2;
 const slop2 = (y2 - y1) / (x2 - x1);
-// console.log(slop2);
+console.log(slop2);
 
 // 7
-// console.log(slop1 > slop2);
+console.log(slop1 > slop2);
 
 // 8
 function findY() {
